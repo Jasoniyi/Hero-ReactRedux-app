@@ -1,0 +1,30 @@
+body {
+  background: url(../assests/background.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.9;
+  color: black;
+}
+
+.App {
+  text-align: center;
+  padding: 5;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.right-button {
+  cursor: pointer;
+  float: right;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.text-bold {
+  font-size: 2em;
+  font-weight: 400;
+}
